@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="common-entity-for-multiple-databases:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>common-entity-for-multiple-databases</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Demo-1.0.war">
+      <element id="artifact" artifact-name="common-entity-for-multiple-databases:war exploded" />
+    </root>
+  </artifact>
+</component>
